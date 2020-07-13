@@ -1,0 +1,169 @@
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup {
+    display: grid;
+    height: 75.92267135325132%;
+    grid-template-columns: 9.89583333333333% 90.10416666666667%;
+    grid-template-rows: 25.925% 14,815% 14,815% 14,815% 14,815% 14,815%;
+  }
+}
+
+@media (max-width : 420px) {
+/* Часть под основной логотип */
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.mainLogo {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 22.91666666666667% 77.08333333333333%;
+  }
+}
+
+@media (max-width : 420px) {
+/* Лого */
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.mainLogo > div.mainLogo__coupon {
+    grid-column: 1/2;
+    background: url(./../icon/coupon.png) no-repeat;
+    background-position: center right 20%;
+    background-size: 50%;
+  }
+}
+
+@media (max-width : 420px) {
+/* Надпись BECO */
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.mainLogo > div.mainLogo__beco {
+    grid-column: 2/3;
+    align-self: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+  }
+}
+
+@media (max-width : 420px) {
+/* Поле под кнопку выходщего меню */
+  .wrapperMobile--active > div.expandMenuButton {
+    z-index: 101;
+    position: absolute;
+    top: 0px;
+    width: 46px;
+    height: 106px;
+    left: 59.9%;
+    background: url(./../icon/1.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+}
+
+@media (max-width : 420px) {
+/* Кнопка выходящего меню */
+  .wrapperMobile--active > div.expandMenuButton > div.burgerMenu {
+    position: relative;
+    top: 43px;
+    left: 5px;
+    width: 26px;
+    height: 20px;
+    background: url(./../icon/menu-exit.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+  }
+}
+
+/* Активные иконки категорий с черточкой*/
+
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.miniLogo1 {
+    background: url(./../icon/line.png) no-repeat;
+    background-position: center left;
+    background-size: 0%;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.miniLogo1--active {
+    background: url(./../icon/line.png) no-repeat;
+    background-position: center left;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.miniLogo2 {
+    background: url(./../icon/line.png) no-repeat;
+    background-position: center left;
+    background-size: 0%;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.miniLogo2--active {
+    background: url(./../icon/line.png) no-repeat;
+    background-position: center left;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.miniLogo3 {
+    background: url(./../icon/line.png) no-repeat;
+    background-position: center left;
+    background-size: 0%;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.miniLogo3--active {
+    background: url(./../icon/line.png) no-repeat;
+    background-position:center left;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.miniLogo4 {
+    background: url(./../icon/line.png) no-repeat;
+    background-position: center left;
+    background-size: 0%;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.miniLogo4--active {
+    background: url(./../icon/line.png) no-repeat;
+    background-position: center left;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.miniLogo5 {
+    background: url(./../icon/line.png) no-repeat;
+    background-position: center left;
+    background-size: 0%;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobile--active > div.sideBar > div.sideBarMarkup > div.miniLogo5--active {
+    background: url(./../icon/line.png) no-repeat;
+    background-position: center left;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}

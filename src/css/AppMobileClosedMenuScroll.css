@@ -1,0 +1,39 @@
+@media (max-width : 420px) {
+  .wrapperMobileScroll {
+    display: grid;
+    grid-template-columns: 3.75% 96.25%;
+    grid-template-rows: 18.66197183098592% 81.33802816901408%;
+  }
+  /* Сайд-бар */
+  .wrapperMobileScroll > div.sideBar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 3.75%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: #f3f4f9;
+  }
+  /* Заголовок */
+  .wrapperMobileScroll > div.header {
+    position: fixed;
+    left: 3.75%;
+    top: 0px;
+    width: 96.25%;
+    height: 18.66197183098592%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: #FFFFFF;
+    z-index: 100;
+  }
+  /* Купоны */
+  .wrapperMobileScroll > div.body {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: #fafafa;
+  }
+  .wrapperMobileScroll > div.expandMenuButton {
+    display: none;
+  }
+}

@@ -1,0 +1,41 @@
+/* Стили для планшета */
+
+/* Стили без нажатия выдвигающегося меню */
+@media (max-width : 868px) {
+  .wrapperTablet {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 13.671875% 86.328125%;
+    grid-template-rows: 19.53125% 80.46875%;
+  }
+  /* Сайд-бар */
+  .wrapperTablet > div.sideBar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 13.671875%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: #f3f4f9;
+  }
+  /* Заголовок */
+  .wrapperTablet > div.header {
+    position: fixed;
+    left: 13.671875%;
+    top: 0px;
+    width: 86.328125%;
+    height: 19.53125%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: #FFFFFF;
+    z-index: 100;
+  }
+  /* Купоны */
+  .wrapperTablet > div.body {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: #fafafa;
+  }
+}

@@ -1,0 +1,42 @@
+/* Стили с нажатием выдвигающегося меню */
+@media (max-width : 868px) {
+  .wrapperTablet--active {
+    width: 100%;
+    height: 100vh;
+  }
+  /* Сайд-бар */
+  .wrapperTablet--active > div.sideBar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 32.03125%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: #f3f4f9;
+    z-index: 2;
+  }
+  /* Заголовок */
+  .wrapperTablet--active > div.header {
+    position: fixed;
+    left: 13.671875%;
+    top: 0px;
+    height: 19.53125%;
+    width: 86.328125%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: #FFFFFF;
+    z-index: 1;
+  }
+  /* Купоны */
+  .wrapperTablet--active > div.body {
+    position: fixed;
+    left: 13.671875%;
+    width: 86.328125%;
+    height: 80.46875;
+    top: 19.53125%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: #fafafa;
+  }
+}

@@ -1,0 +1,35 @@
+@media (max-width : 420px) {
+  .wrapperMobile > div.sideBar > div.sideBarMarkup {
+    display: none;
+  }
+}
+
+@media (max-width : 420px) {
+/* Поле под кнопку выходщего меню */
+  .wrapperMobile > div.expandMenuButton {
+    z-index: 101;
+    position: absolute;
+    top: 0px;
+    left: 3.75%;
+    width: 46px;
+    height: 106px;
+    background: url(./../icon/1.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+}
+
+@media (max-width : 420px) {
+/* Кнопка выходящего меню */
+  .wrapperMobile > div.expandMenuButton > div.burgerMenu {
+    position: relative;
+    top: 43px;
+    left: 5px;
+    width: 26px;
+    height: 20px;
+    background: url(./../icon/burger-menu.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+  }
+}

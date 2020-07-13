@@ -1,0 +1,158 @@
+.bodyMarkup {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3.333333%;
+  padding-bottom: 8.44%;
+  grid-column-gap: 1.66666666666667%;
+  grid-row-gap: 2.85714285714286%;
+}
+
+/* Стиль всего купона */
+.bodyMarkup > div.coupon {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  border: 1px solid #DF212D;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Верхняя часть купона */
+.bodyMarkup > div.coupon > div.top {
+  grid-row: 1/2;
+  position: relative;
+  padding-left: 5.865%;
+  padding-right: 5.865%;
+  align-self: center;
+}
+
+/* Название заведения */
+.bodyMarkup > div.coupon > div.top > div.tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* Описание заведения*/
+.bodyMarkup > div.coupon > div.top > div.description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+/* Нижняя часть купона */
+.bodyMarkup > div.coupon > div.bottom {
+  grid-row: 2/3;
+  position: relative;
+  padding-left: 5.865%;
+  align-self: center;
+}
+
+/* Размер скидки или промокода */
+.bodyMarkup > div.coupon > div.bottom > div.num {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 28px;
+  color: #DF212D;
+}
+
+/* Надпись скидка или промокод */
+.bodyMarkup > div.coupon > div.bottom > div.label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.5;
+}
+
+/* Фон купонов */
+.bodyMarkup > div.coupon1 {
+  background: url(./../image/image1.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon2 {
+  background: url(./../image/image2.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon3 {
+  background: url(./../image/image3.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon4 {
+  background: url(./../image/image4.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon5 {
+  background: url(./../image/image5.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon6 {
+  background: url(./../image/image6.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon7 {
+  background: url(./../image/image7.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon8 {
+  background: url(./../image/image8.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon9 {
+  background: url(./../image/image9.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon10 {
+  background: url(./../image/image10.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon11 {
+  background: url(./../image/image11.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}
+
+.bodyMarkup > div.coupon12 {
+  background: url(./../image/image12.png) no-repeat white;
+  background-position: right center;
+  background-size: contain;
+}

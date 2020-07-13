@@ -1,0 +1,51 @@
+.searchMarkup {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 54.5% 45.1% 1px;
+}
+
+/* Заголовок */
+.searchMarkup > div.heading {
+  grid-row: 1/2;
+  padding-left: 5.55555555555556%;
+  align-self: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+/* Расположение поисковой строки */
+.searchMarkup > div.searchLine {
+  grid-row: 2/3;
+  padding-left: 5.55555555555556%;
+  padding-right: 5.55555555555556%;
+}
+
+/* Стили поисковой строки*/
+.searchMarkup > div.searchLine > input.searchLine__line {
+  width: 96.5%;
+  height: 45.6140350877193%;
+  outline: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  border: 1px solid #8c8c8c;
+  border-radius: 50px;
+  color: #8c8c8c;
+  background: url(./../icon/search.png) no-repeat;
+  background-size: 2%;
+  background-position: 1% center;
+  padding-left: 3.5%;
+}
+
+/* Нижняя линия*/
+.searchMarkup > div.leadLine {
+  grid-row: 3/4;
+  background: #E5E5E5;
+}

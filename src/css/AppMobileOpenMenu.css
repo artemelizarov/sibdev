@@ -1,0 +1,42 @@
+@media (max-width : 420px) {
+  .wrapperMobile--active {
+    width: 100%;
+    height: 100vh;
+  }
+  /* Сайд-бар */
+  .wrapperMobile--active > div.sideBar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 60%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: #f3f4f9;
+    z-index: 2;
+  }
+  /* Заголовок */
+  .wrapperMobile--active > div.header {
+    position: fixed;
+    left: 3.75%;
+    top: 0px;
+    width: 96.25%;
+    height: 29.75352112676056%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background: #FFFFFF;
+    z-index: 1;
+  }
+  /* Купоны */
+  .wrapperMobile--active > div.body {
+    position: fixed;
+    left: 3.75%;
+    top: 29.75352112676056%;
+    width: 96.25%;
+    height: 70.24647887323944%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: #fafafa;
+    z-index: 0;
+  }
+}

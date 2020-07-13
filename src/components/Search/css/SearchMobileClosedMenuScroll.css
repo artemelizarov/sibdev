@@ -1,0 +1,53 @@
+@media (max-width : 420px) {
+  .wrapperMobileScroll > div.header > div.searchMarkup {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1px;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobileScroll > div.header > div.searchMarkup > div.heading {
+    display: none;
+  }
+}
+
+@media (max-width : 420px) {
+/* Расположение поисковой строки */
+  .wrapperMobileScroll > div.header > div.searchMarkup > div.searchLine {
+    grid-row: 1/2;
+    align-self: center;
+    padding-left: 3.471875%;
+    padding-right: 2%;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobileScroll > div.header > div.searchMarkup > div.searchLine > input.searchLine__line {
+    grid-row: 1/2;
+    padding-left: 6.5%;
+    width: 91.5%;
+    height: 45.6140350877193%;
+    outline: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    border: 1px solid #8c8c8c;
+    border-radius: 50px;
+    color: #8c8c8c;
+    background: url(./../icon/search.png) no-repeat;
+    background-size: 3.5%;
+    background-position: 2% center;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobileScroll > div.header > div.searchMarkup > div.leadLine {
+    grid-row: 2/3;
+    background: #E5E5E5;
+  }
+}

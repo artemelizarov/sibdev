@@ -1,0 +1,57 @@
+@media (max-width : 420px) {
+  .wrapperMobile > div.header > div.searchMarkup {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 54.5% 45.1% 1px;
+  }
+}
+
+@media (max-width : 420px) {
+/* Заголовок */
+  .wrapperMobile > div.header > div.searchMarkup > div.heading {
+    grid-row: 1/2;
+    padding-right: 7.49063670411985%;
+    justify-self: end;
+    align-self: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: right;
+    color: #000000;
+    opacity: 0.85;
+  }
+}
+
+/* Расположение поисковой строки */
+@media (max-width : 420px) {
+.wrapperMobile > div.header > div.searchMarkup > div.searchLine {
+/* Расположение поисковой строки */
+    grid-row: 2/3;
+    padding-left: 7.49063670411985%;
+    padding-right: 7.49063670411985%;
+  }
+}
+
+@media (max-width : 420px) {
+  .wrapperMobile > div.header > div.searchMarkup > div.searchLine > input.searchLine__line {
+    padding-left: 8.5%;
+    width: 91.5%;
+    height: 45.6140350877193%;
+    outline: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    border: 1px solid #8c8c8c;
+    border-radius: 50px;
+    color: #8c8c8c;
+    background: url(./../icon/search.png) no-repeat;
+    background-size: 5%;
+    background-position: 3% center;
+  }
+}

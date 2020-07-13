@@ -1,0 +1,160 @@
+@media (max-width : 868px) {
+  .wrapperTablet > div.sideBar > div.sideBarMarkup {
+    height: 40.13671875%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 27.01% 14.598% 14.598% 14.598% 14.598% 14.598%;
+  }
+}
+
+@media (max-width : 868px) {
+/* Поле под кнопку выходщего меню */
+  .wrapperTablet > div.expandMenuButton {
+    z-index: 101;
+    position: absolute;
+    top: 0px;
+    left: 13.571875%;
+    width: 46px;
+    height: 106px;
+    background: url(./../icon/1.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+}
+
+@media (max-width : 868px) {
+/* Кнопка выходящего меню */
+  .wrapperTablet > div.expandMenuButton > div.burgerMenu {
+    position: relative;
+    top: 43px;
+    left: 5px;
+    width: 26px;
+    height: 20px;
+    background: url(./../icon/burger-menu.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+  }
+}
+
+@media (max-width : 868px) {
+/* Часть под основной логотип */
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.mainLogo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width : 868px) {
+/* Лого */
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.mainLogo > div.mainLogo__coupon {
+    background: url(./../icon/coupon.png) no-repeat;
+    background-position: center center;
+    background-size: 21%;
+  }
+}
+
+@media (max-width : 868px) {
+/* Надпись BECO */
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.mainLogo > div.mainLogo__beco {
+    display: none;
+  }
+}
+
+/* Иконки категорий */
+
+@media (max-width : 868px) {
+.wrapperTablet > div.sideBar > div.sideBarMarkup > div.miniLogo1 {
+    background: #f3f4f9 url(./../icon/catalog.png) no-repeat;
+    cursor: pointer;
+    background-position: center center;
+  }
+}
+
+@media (max-width : 868px) {
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.miniLogo2 {
+    background: url(./../icon/health.png) no-repeat #f3f4f9;
+    cursor: pointer;
+    background-position: center center;
+  }
+}
+
+@media (max-width : 868px) {
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.miniLogo3 {
+    background: url(./../icon/beauty.png) no-repeat #f3f4f9;
+    cursor: pointer;
+    background-position: center center;
+  }
+}
+
+@media (max-width : 868px) {
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.miniLogo4 {
+    background: url(./../icon/enjoy.png) no-repeat #f3f4f9;
+    cursor: pointer;
+    background-position: center center;
+  }
+}
+
+@media (max-width : 868px) {
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.miniLogo5 {
+    background: url(./../icon/car.png) no-repeat #f3f4f9;
+    cursor: pointer;
+    background-position: center center;
+  }
+}
+
+/* Активные иконки категорий c черточкой*/
+
+@media (max-width : 868px) {
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.miniLogo1--active {
+    background: url(./../icon/catalog-active.png) no-repeat, url(./../icon/line.png) no-repeat;
+    background-position: center center, center left;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 868px) {
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.miniLogo2--active {
+    background: url(./../icon/health-active.png) no-repeat, url(./../icon/line.png) no-repeat;
+    background-position: center center, center left;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 868px) {
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.miniLogo3--active {
+    background: url(./../icon/beauty-active.png) no-repeat, url(./../icon/line.png) no-repeat;
+    background-position: center center, center left;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 868px) {
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.miniLogo4--active {
+    background: url(./../icon/enjoy-active.png) no-repeat, url(./../icon/line.png) no-repeat;
+    background-position: center center, center left;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 868px) {
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.miniLogo5--active {
+    background: url(./../icon/car-active.png) no-repeat, url(./../icon/line.png) no-repeat;
+    background-position: center center, center left;
+    cursor: pointer;
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width : 868px) {
+/* Название категорий */
+  .wrapperTablet > div.sideBar > div.sideBarMarkup > div.categoryName{
+    display: none;
+  }
+}

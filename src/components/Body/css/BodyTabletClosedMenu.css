@@ -1,0 +1,12 @@
+@media (max-width : 868px) {
+    .wrapperTablet > div.body > div.bodyMarkup {
+    width: 92.16867469879518%;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3.20284697508897%;
+    padding-left: 3.91566265060241%;
+    padding-right: 3.91566265060241%;
+    padding-bottom: 9.16590284142988%;
+    grid-column-gap: 3.01204819277108%;
+    grid-row-gap: 2.37247924080664%;
+  }
+}

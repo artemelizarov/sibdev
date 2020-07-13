@@ -1,0 +1,11 @@
+@media (max-width : 420px) {
+    .wrapperMobile > div.body > div.bodyMarkup {
+    width: 92.16867469879518%;
+    grid-template-columns: 1fr;
+    padding-top: 6.76691729323308%;
+    padding-left: 6.49350649350649%;
+    padding-right: 6.49350649350649%;
+    padding-bottom: 8.63557858376511%;
+    grid-row-gap: 3.7593984962406%;
+  }
+}
